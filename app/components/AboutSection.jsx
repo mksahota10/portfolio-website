@@ -10,7 +10,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
          <li>JavaScript</li>
-        <li>Node.js</li>
+        <li>Node</li>
         <li>Express</li>
         <li>React</li>
         <li>PostgreSQL</li>
@@ -24,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li> Economics and Communication Studies, San Jose State University</li>
+        <li> Economics and Communication Studies&apos;{" "} San Jose State University</li>
       </ul>
     ),
   },
@@ -33,7 +33,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Software Engineer, General Assembly</li>
+        <li>Fullstack Software Engineer&apos;{" "} General Assembly</li>
         <li>AWS Cloud Practitioner</li>
         <li>FINRA Series 7 and 63</li>
       </ul>
@@ -58,7 +58,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Results-oriented and forward-thinking professional with a proven track record in optimizing product functionality, driving user engagement, and delivering tangible outcomes. Adept at problem-solving with a proactive approach, I excel in strategic collaboration and leverage cutting-edge technologies to propel product success.
+          Results&apos;{" "}oriented and forward&apos;{" "}thinking professional with a proven track record in optimizing product functionality&apos;{" "} driving user engagement&apos;{" "} and delivering tangible outcomes. Adept at problem&apos;{" "}solving with a proactive approach&apos;{" "} I excel in strategic collaboration and leverage cutting&apos;{" "}edge technologies to propel product success.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
