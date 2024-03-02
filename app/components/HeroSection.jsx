@@ -16,7 +16,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-pink-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -24,11 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "Preet",
                 1000,
-                "Web Developer",
+                "A Developer",
                 1000,
-                "Developer Advocate",
+                "An Avid Learner",
                 1000,
-                "Avid Learner",
+                "Always Curious",
                 1000,
               ]}
               wrapper="span"
@@ -37,21 +37,20 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+           Let's Connect!
           </p>
           <div>
             <Link
               href="/#contact"
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
             >
-              Hire Me
+              Find Me Here
             </Link>
             <Link
-              href="/#contact"
+              href="https://docs.google.com/document/d/e/2PACX-1vRdG8QIjqRMMqoJY11MM7fX3y5MmOUBb1rXFKXqKzgreU3RLW0-1EGdMZQN5AMMHw/pub"
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
             >
-              DownLoad CV
+              Download My CV
             </Link>
           </div>
         </motion.div>
@@ -61,9 +60,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className=" bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/Pic.jpeg"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}

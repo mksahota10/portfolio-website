@@ -9,12 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+         <li>JavaScript</li>
         <li>Node.js</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
         <li>React</li>
+        <li>PostgreSQL</li>
+        <li>Python</li>
+        <li>SQL</li>
       </ul>
     ),
   },
@@ -23,7 +24,6 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Software Engineer, General Assembly</li>
         <li> Economics and Communication Studies, San Jose State University</li>
       </ul>
     ),
@@ -33,8 +33,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li>Fullstack Software Engineer, General Assembly</li>
         <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>FINRA Series 7 and 63</li>
       </ul>
     ),
   },
@@ -57,12 +58,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Results-oriented and forward-thinking professional with a proven track record in optimizing product functionality, driving user engagement, and delivering tangible outcomes. Adept at problem-solving with a proactive approach, I excel in strategic collaboration and leverage cutting-edge technologies to propel product success.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
