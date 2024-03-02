@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-           Let&apos;s{" "} Connect!
+          Happy to have you here. 
           </p>
           <div>
             <Link

@@ -58,7 +58,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Results&apos;{" "}oriented and forward&apos;{" "}thinking professional with a proven track record in optimizing product functionality&apos;{" "} driving user engagement&apos;{" "} and delivering tangible outcomes. Adept at problem&apos;{" "}solving with a proactive approach&apos;{" "} I excel in strategic collaboration and leverage cutting&apos;{" "}edge technologies to propel product success.
+          {" "}Results&apos;{" "}oriented and forward&apos;{" "}thinking professional with a proven track record in optimizing product functionality&apos;{" "} driving user engagement&apos;{" "} and delivering tangible outcomes. Adept at problem&apos;{" "}solving with a proactive approach&apos;{" "} I excel in strategic collaboration and leverage cutting&apos;{" "}edge technologies to propel product success.
+          {" "}
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
